@@ -80,8 +80,8 @@ test:
 
     # does RUNTIME_PREFIX fix the shebang for git-p4?
     - which python  # [unix]
-    - head -n1 $PREFIX/libexec/git-core/git-p4 # [unix]
-    - git p4 clone --help # [unix]
+    - head -n1 $PREFIX/libexec/git-core/git-p4  # [unix]
+    - git p4 clone --help  # [unix]
 
 about:
   home: https://git-scm.com/
